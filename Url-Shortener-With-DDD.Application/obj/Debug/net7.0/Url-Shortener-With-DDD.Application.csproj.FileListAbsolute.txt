@@ -1,0 +1,15 @@
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/bin/Debug/net7.0/Url-Shortener-With-DDD.Application.deps.json
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/bin/Debug/net7.0/Url-Shortener-With-DDD.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/bin/Debug/net7.0/Url-Shortener-With-DDD.Application.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.csproj.AssemblyReference.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.AssemblyInfoInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.AssemblyInfo.cs
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.csproj.CoreCompileInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.csproj.CopyComplete
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/refint/Url-Shortener-With-DDD.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/Url-Shortener-With-DDD.Application.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Application/obj/Debug/net7.0/ref/Url-Shortener-With-DDD.Application.dll

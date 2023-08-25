@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Url-Shortener-With-DDD.Api.props" />
+</Project>

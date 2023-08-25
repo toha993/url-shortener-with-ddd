@@ -1,0 +1,15 @@
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/bin/Debug/net7.0/Clean-Architecture-Template.Application.deps.json
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/bin/Debug/net7.0/Clean-Architecture-Template.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/bin/Debug/net7.0/Clean-Architecture-Template.Application.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/bin/Debug/net7.0/Clean-Architecture-Template.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/bin/Debug/net7.0/Clean-Architecture-Template.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.csproj.AssemblyReference.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.AssemblyInfoInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.AssemblyInfo.cs
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.csproj.CoreCompileInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.csproj.CopyComplete
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/refint/Clean-Architecture-Template.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/Clean-Architecture-Template.Application.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Application/obj/Debug/net7.0/ref/Clean-Architecture-Template.Application.dll

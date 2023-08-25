@@ -1,0 +1,17 @@
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Infrastructure.deps.json
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Infrastructure.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Application.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/bin/Debug/net7.0/Clean-Architecture-Template.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.csproj.AssemblyReference.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.AssemblyInfoInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.AssemblyInfo.cs
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.csproj.CopyComplete
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/refint/Clean-Architecture-Template.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/Clean-Architecture-Template.Infrastructure.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Infrastructure/obj/Debug/net7.0/ref/Clean-Architecture-Template.Infrastructure.dll

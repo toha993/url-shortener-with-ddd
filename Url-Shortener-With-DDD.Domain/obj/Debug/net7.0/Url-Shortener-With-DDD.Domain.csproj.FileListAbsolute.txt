@@ -1,0 +1,12 @@
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.deps.json
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.csproj.AssemblyReference.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.AssemblyInfoInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.AssemblyInfo.cs
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.csproj.CoreCompileInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/refint/Url-Shortener-With-DDD.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/Url-Shortener-With-DDD.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Domain/obj/Debug/net7.0/ref/Url-Shortener-With-DDD.Domain.dll

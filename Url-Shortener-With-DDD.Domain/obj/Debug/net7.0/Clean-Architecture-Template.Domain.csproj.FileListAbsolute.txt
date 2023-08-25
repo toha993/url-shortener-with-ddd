@@ -1,0 +1,12 @@
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/bin/Debug/net7.0/Clean-Architecture-Template.Domain.deps.json
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/bin/Debug/net7.0/Clean-Architecture-Template.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/bin/Debug/net7.0/Clean-Architecture-Template.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.csproj.AssemblyReference.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.AssemblyInfoInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.AssemblyInfo.cs
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.csproj.CoreCompileInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/refint/Clean-Architecture-Template.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/Clean-Architecture-Template.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template/Clean-Architecture-Template.Domain/obj/Debug/net7.0/ref/Clean-Architecture-Template.Domain.dll

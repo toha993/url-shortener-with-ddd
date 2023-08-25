@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Clean-Architecture-Template.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Clean-Architecture-Template.Application": "1.0.0"
+        },
+        "runtime": {
+          "Clean-Architecture-Template.Infrastructure.dll": {}
+        }
+      },
+      "Clean-Architecture-Template.Application/1.0.0": {
+        "dependencies": {
+          "Clean-Architecture-Template.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Clean-Architecture-Template.Application.dll": {}
+        }
+      },
+      "Clean-Architecture-Template.Domain/1.0.0": {
+        "runtime": {
+          "Clean-Architecture-Template.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clean-Architecture-Template.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean-Architecture-Template.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean-Architecture-Template.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
