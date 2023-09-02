@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "dXcjwJV8u3JKZRy9m9S2IJC8wCJiseuzCbVmN79O+t0SMuplXtOvkv8U/eSH8D1uaD07fm5Ct+xIimnl+ivQZA==",
+  "dgSpecHash": "dI0SrppPB8b6yEx4pP6LpMiAw4Wnba6G15K9TDRfOmDoDNL6ard0oV4w54uEyk/qP75u81tPy7x1QLKi1RNuIw==",
   "success": true,
   "projectFilePath": "/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Api/Url-Shortener-With-DDD.Api.csproj",
   "expectedPackageFiles": [
     "/Users/henrick993/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/lazycache/2.4.0/lazycache.2.4.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/lazycache.aspnetcore/2.4.0/lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.aspnetcore.openapi/7.0.8/microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

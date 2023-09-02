@@ -1,4 +1,5 @@
 using System.Xml;
+using LazyCache;
 using Microsoft.EntityFrameworkCore;
 using UrlShortenerWithDDD.Application.Helpers;
 using UrlShortenerWithDDD.Application.Interfaces;
@@ -9,7 +10,7 @@ namespace UrlShortenerWithDDD.Application.Services;
 
 public interface IUrlService
 {
-    Task<Url> GetByCode(string code);
+    Task<string?> GetByCode(string code);
     Task<string> CreateShortLink(string url);
 
 }
@@ -18,22 +19,29 @@ public class UrlService : IUrlService
 
     private readonly IDataContext _context;
     private readonly IRandomCodeGenerator _randomCodeGenerator;
+    private readonly IAppCache _cache;
 
-    public UrlService(IDataContext context, IRandomCodeGenerator randomCodeGenerator)
+    public UrlService(IDataContext context, IRandomCodeGenerator randomCodeGenerator, IAppCache cache)
     {
         _context = context;
         _randomCodeGenerator = randomCodeGenerator;
+        _cache = cache;
     }
 
 
-    public async Task<Url> GetByCode(string code)
+    public async Task<string?> GetByCode(string code)
     {
-        var longUrl = await _context.Urls!.FirstOrDefaultAsync(x => x.Code == code);
-        if (longUrl == null)
+        return await _cache.GetOrAddAsync(code, async entry =>
         {
-            throw new Exception("Url not found");
-        }
-        return longUrl;
+            entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromDays(1);
+            return await GetLongUrl(code);
+        });
+    }
+
+    private async Task<string?> GetLongUrl(string code)
+    {
+        var url = await _context.Urls!.FirstOrDefaultAsync(x => x.Code == code);
+        return url is not null ? url.Link : string.Empty;
     }
 
     public async Task<string> CreateShortLink(string urlString)

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using UrlShortenerWithDDD.Application.Services;
 using UrlShortenerWithDDD.Domain.Models;
 
@@ -8,7 +9,8 @@ public class UrlController : Controller
 {
 	private readonly IUrlService _urlService;
 	private readonly IHttpContextAccessor _httpContextAccessor;
-	
+	private string? foundLongUrl;
+
 	public UrlController(IUrlService urlService, IHttpContextAccessor httpContext)
 	{
 		_urlService = urlService;
@@ -32,10 +34,9 @@ public class UrlController : Controller
 	[HttpGet("{code}")]
 	public async Task<IResult> PostUrlRequest(string code)
 	{
-		var foundUrl = await _urlService.GetByCode(code);
-
-		if (foundUrl.Link != null) return Results.Redirect(foundUrl.Link);
-		return Results.BadRequest("The url is not correct");
+		foundLongUrl = await _urlService.GetByCode(code);
+		if (foundLongUrl.IsNullOrEmpty() == false) return Results.Redirect(foundLongUrl!); 
+		return Results.Redirect("https://www.google.com");
 	}
 	
 }

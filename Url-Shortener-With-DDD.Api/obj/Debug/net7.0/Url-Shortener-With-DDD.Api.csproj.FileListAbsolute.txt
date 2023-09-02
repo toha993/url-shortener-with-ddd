@@ -157,3 +157,5 @@
 /Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Api/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Api/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Api/bin/Debug/net7.0/System.CodeDom.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Api/bin/Debug/net7.0/LazyCache.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Api/bin/Debug/net7.0/LazyCache.AspNetCore.dll

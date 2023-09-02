@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZVzyxx0ha5TyVA58zp/Uq8i0pRDGhhNACcRHrL2GcpcdO7adqrV4Z7N6AE54h/eRPRvlfe6ldwaU4r1kMx8tA==",
+  "dgSpecHash": "iZo72OjOIiUek9S5PucAC5bzvFGc0czAubV7cBIQU2i1hWdz6af2KydsO4FJanRAnfx/WKhKmYZQF5l4s5Wutg==",
   "success": true,
   "projectFilePath": "/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/Url-Shortener-With-DDD.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/henrick993/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/lazycache/2.4.0/lazycache.2.4.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/lazycache.aspnetcore/2.4.0/lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.data.sqlclient/5.0.2/microsoft.data.sqlclient.5.0.2.nupkg.sha512",

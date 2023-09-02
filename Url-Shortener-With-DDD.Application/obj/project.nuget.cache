@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jzHxU1jV/yfseBYalvetETZZJ64ineCIPpCFz0EgXJd/3MgMIUQ1GLcIpjPWRwZOu96E409hNhtSorMzgfykSg==",
+  "dgSpecHash": "+iwEVWmV8uLp8koV8OLNuj4aXhtbSxlTQMxX7DOJMNj7hpwVQwe2/m31PVUQCms6oat0FgSrlcgnI688/6oliA==",
   "success": true,
   "projectFilePath": "/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Application/Url-Shortener-With-DDD.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/henrick993/.nuget/packages/lazycache/2.4.0/lazycache.2.4.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/lazycache.aspnetcore/2.4.0/lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "/Users/henrick993/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",

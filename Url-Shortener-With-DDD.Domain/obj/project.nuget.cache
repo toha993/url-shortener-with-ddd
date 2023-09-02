@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "lGtYr5bM5bGA9sNeTgeJO6GETFvu6xReS5yyTaDCo1gqBGGd6y+toWwL3uAIZdN5P72sv6wd+8Xyqw0ymQEa3w==",
+  "dgSpecHash": "fWq+KVDlHAhsTvGMztUhF7ilgeWXZiKszAQSjU+P8wRbDGpbjveD8WSgW842+fv2QJzv+yQHT6RiBEMXCb+Bjw==",
   "success": true,
   "projectFilePath": "/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Domain/Url-Shortener-With-DDD.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/henrick993/.nuget/packages/lazycache/2.4.0/lazycache.2.4.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/lazycache.aspnetcore/2.4.0/lazycache.aspnetcore.2.4.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/microsoft.extensions.caching.abstractions/2.1.0/microsoft.extensions.caching.abstractions.2.1.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/microsoft.extensions.caching.memory/2.1.0/microsoft.extensions.caching.memory.2.1.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/microsoft.extensions.options/2.1.0/microsoft.extensions.options.2.1.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/microsoft.extensions.primitives/2.1.0/microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
+    "/Users/henrick993/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
