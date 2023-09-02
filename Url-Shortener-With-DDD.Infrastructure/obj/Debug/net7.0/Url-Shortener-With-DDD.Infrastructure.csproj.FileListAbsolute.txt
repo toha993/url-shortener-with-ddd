@@ -15,3 +15,22 @@
 /Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/refint/Url-Shortener-With-DDD.Infrastructure.dll
 /Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.pdb
 /Users/henrick993/Documents/DotNetProjects/Clean-Architecture-Template copy/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/ref/Url-Shortener-With-DDD.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.deps.json
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.pdb
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Application.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Application.pdb
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Domain.pdb
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.csproj.AssemblyReference.cache
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.AssemblyInfoInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.AssemblyInfo.cs
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.csproj.CopyComplete
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/refint/Url-Shortener-With-DDD.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.pdb
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/ref/Url-Shortener-With-DDD.Infrastructure.dll
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/bin/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.runtimeconfig.json
+/Users/henrick993/Documents/DotNetProjects/Url-Shortener-With-DDD/Url-Shortener-With-DDD.Infrastructure/obj/Debug/net7.0/Url-Shortener-With-DDD.Infrastructure.genruntimeconfig.cache

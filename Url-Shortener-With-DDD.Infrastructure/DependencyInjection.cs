@@ -11,15 +11,15 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<DataContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
+            options.UseSqlServer(configuration.GetConnectionString("WebApiDatabase"),
                 builder =>
                 {
                     builder.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10),
                         null);
                     builder.MigrationsAssembly(typeof(DataContext).Assembly.FullName);
-                }), ServiceLifetime.Transient);
+                }));
         
-        services.AddScoped<IDataContext>(provider => provider.GetService<DataContext>() ?? throw new InvalidOperationException());
+        services.AddScoped<IDataContext>(provider => provider.GetRequiredService<DataContext>());
         return services;
 
     }

@@ -5,5 +5,6 @@ namespace UrlShortenerWithDDD.Application.Interfaces;
 
 public interface IDataContext
 {
-   DbSet<Url> Urls { get; set; }
+   DbSet<Url>? Urls { get; set; }
+   Task<int> SaveChangesAsync();
 }

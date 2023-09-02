@@ -1,29 +1,44 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UrlShortenerWithDDD.Application.Services;
+using UrlShortenerWithDDD.Domain.Models;
 
 namespace UrlShortenerWithDDD.Api.Controllers;
-[ApiController]
 [Route("[controller]")]
-public class UrlController : ControllerBase
+public class UrlController : Controller
 {
-	// create a getrequest method for the urlcontroller with geturlrequest as the name
-	[HttpGet("GetUrlRequest")]
+	private readonly IUrlService _urlService;
+	private readonly IHttpContextAccessor _httpContextAccessor;
 	
-	// create a method that returns an ActionResult of GetUrlRequest
-	public ActionResult GetUrlRequest()
+	public UrlController(IUrlService urlService, IHttpContextAccessor httpContext)
 	{
-		// return a new instance of GetUrlRequest
-		return Ok();
+		_urlService = urlService;
+		_httpContextAccessor = httpContext;
 	}
 	
-	// create a postrequest method for the urlcontroller with posturlrequest as the name
-	[HttpPost("PostUrlRequest")]
+	[HttpGet("shorten")]
 	
-	// create a method that returns an ActionResult of PostUrlRequest
-	public ActionResult PostUrlRequest()
+	public async Task<IResult> GetUrlRequest(UrlRequestModel req)
 	{
-		// return a new instance of PostUrlRequest
-		return Ok();
+		if (!Uri.TryCreate(req.LongUrl,UriKind.Absolute,out var uri))
+		{
+			return Results.BadRequest("The url is not correct");
+		}
+
+		var item = await _urlService.CreateShortLink(req.LongUrl);
+		var updatedUrl = _httpContextAccessor.HttpContext?.Request.Scheme + "://" + _httpContextAccessor.HttpContext?.Request.Host + "/url/" + item;
+		return Results.Ok(updatedUrl);
+	}
+	
+	[HttpGet("{code}")]
+	public async Task<IResult> PostUrlRequest(string code)
+	{
+		var foundUrl = await _urlService.GetByCode(code);
+
+		if (foundUrl.Link != null) return Results.Redirect(foundUrl.Link);
+		return Results.BadRequest("The url is not correct");
 	}
 	
 }
+
+
 
