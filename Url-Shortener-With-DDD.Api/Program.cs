@@ -5,7 +5,14 @@ using UrlShortenerWithDDD.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin",
+        corsPolicyBuilder => corsPolicyBuilder
+            .WithOrigins("http://localhost:4200") // Replace with the origin of your Angular app
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddLazyCache();
 builder.Services.AddMemoryCache();
@@ -26,8 +33,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
+app.UseCors("AllowOrigin");
 
 app.MapControllers();
 

@@ -37,7 +37,7 @@ public class UrlService : IUrlService
             return await GetLongUrl(code);
         });
     }
-
+    
     private async Task<string?> GetLongUrl(string code)
     {
         var url = await _context.Urls!.FirstOrDefaultAsync(x => x.Code == code);
@@ -46,13 +46,11 @@ public class UrlService : IUrlService
 
     public async Task<string> CreateShortLink(string urlString)
     {
-        if (await _context.Urls.FirstOrDefaultAsync(url => url.Link == urlString) == null)
+        if (await _context.Urls!.FirstOrDefaultAsync(url => url.Link == urlString) == null)
             return await GenerateShortLink(urlString);
         
-        var foundUrl = await _context.Urls.FirstOrDefaultAsync(url => url.Link == urlString);
+        var foundUrl = await _context.Urls!.FirstOrDefaultAsync(url => url.Link == urlString);
         return foundUrl.Code;
-        
-
     }
 
     private async Task<string> GenerateShortLink(string url)
@@ -73,7 +71,5 @@ public class UrlService : IUrlService
         await _context.SaveChangesAsync();
 
         return createdShortLink;
-
-        
     }
 }

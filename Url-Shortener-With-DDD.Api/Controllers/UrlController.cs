@@ -17,26 +17,57 @@ public class UrlController : Controller
 		_httpContextAccessor = httpContext;
 	}
 	
-	[HttpGet("shorten")]
+	[HttpPost("shorten")]
 	
-	public async Task<IResult> GetUrlRequest(UrlRequestModel req)
+	public async Task<IActionResult> GetUrlRequest([FromBody] UrlRequestModel req)
 	{
-		if (!Uri.TryCreate(req.LongUrl,UriKind.Absolute,out var uri))
+		bool isValid = Uri.TryCreate(req.LongUrl,UriKind.Absolute,out var uri);
+		var data = new ResponseBody();
+		if (isValid)
 		{
-			return Results.BadRequest("The url is not correct");
+			var item = await _urlService.CreateShortLink(req.LongUrl!);
+			var updatedUrl = _httpContextAccessor.HttpContext?.Request.Scheme + "://" + _httpContextAccessor.HttpContext?.Request.Host + "/url/" + item;
+			data.Message = "Success";
+			data.Data = updatedUrl;
 		}
-
-		var item = await _urlService.CreateShortLink(req.LongUrl);
-		var updatedUrl = _httpContextAccessor.HttpContext?.Request.Scheme + "://" + _httpContextAccessor.HttpContext?.Request.Host + "/url/" + item;
-		return Results.Ok(updatedUrl);
+		else
+		{
+			data.Message = "Invalid Url";
+			data.Data = null;
+		}
+		return new JsonResult(data)
+		{
+			StatusCode = isValid ?  200 : 404
+		};
 	}
 	
 	[HttpGet("{code}")]
-	public async Task<IResult> PostUrlRequest(string code)
+	public async Task<IActionResult> PostUrlRequest(string code)
 	{
 		foundLongUrl = await _urlService.GetByCode(code);
-		if (foundLongUrl.IsNullOrEmpty() == false) return Results.Redirect(foundLongUrl!); 
-		return Results.Redirect("https://www.google.com");
+		if (foundLongUrl.IsNullOrEmpty() == false)
+		{
+			return new JsonResult( new ResponseBody()
+			{
+				Message = "Success",
+				Data = foundLongUrl
+			})
+			{
+				StatusCode = 200
+			};
+		}	
+		else
+		{
+			return new JsonResult( new ResponseBody()
+			{
+				Message = "Failed",
+				Data = "https://www.google.com"
+			})
+			{
+				StatusCode = 404
+			};
+			
+		}
 	}
 	
 }
