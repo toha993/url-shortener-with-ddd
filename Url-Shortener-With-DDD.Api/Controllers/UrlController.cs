@@ -9,7 +9,6 @@ public class UrlController : Controller
 {
 	private readonly IUrlService _urlService;
 	private readonly IHttpContextAccessor _httpContextAccessor;
-	private string? foundLongUrl;
 
 	public UrlController(IUrlService urlService, IHttpContextAccessor httpContext)
 	{
@@ -26,48 +25,52 @@ public class UrlController : Controller
 		if (isValid)
 		{
 			var item = await _urlService.CreateShortLink(req.LongUrl!);
-			var updatedUrl = _httpContextAccessor.HttpContext?.Request.Scheme + "://" + _httpContextAccessor.HttpContext?.Request.Host + "/url/" + item;
-			data.Message = "Success";
-			data.Data = updatedUrl;
+			var updatedUrl = GetBaseUrl() + "/url/" + item;
+			data = GetResponseBody("Success", updatedUrl);
 		}
 		else
 		{
-			data.Message = "Invalid Url";
-			data.Data = null;
+			data = GetResponseBody("Failed", null);
 		}
-		return new JsonResult(data)
-		{
-			StatusCode = isValid ?  200 : 404
-		};
+		return GetJsonResult(data, isValid ? 200 : 404);
 	}
 	
 	[HttpGet("{code}")]
-	public async Task<IActionResult> PostUrlRequest(string code)
+	public async Task<IResult> PostUrlRequest(string code)
 	{
-		foundLongUrl = await _urlService.GetByCode(code);
+		string? foundLongUrl = await _urlService.GetByCode(code);
 		if (foundLongUrl.IsNullOrEmpty() == false)
 		{
-			return new JsonResult( new ResponseBody()
-			{
-				Message = "Success",
-				Data = foundLongUrl
-			})
-			{
-				StatusCode = 200
-			};
-		}	
-		else
-		{
-			return new JsonResult( new ResponseBody()
-			{
-				Message = "Failed",
-				Data = "https://www.google.com"
-			})
-			{
-				StatusCode = 404
-			};
-			
+			return Results.Redirect(foundLongUrl!);
+			/*return GetJsonResult(GetResponseBody("Success", foundLongUrl), 200);*/
 		}
+		return Results.Redirect("https://www.google.com");
+		/*return GetJsonResult(GetResponseBody("Failed", "https://www.google.com"), 404);*/
+		
+	}
+	
+	private string GetBaseUrl()
+	{
+		var request = _httpContextAccessor.HttpContext?.Request;
+		var host = request?.Host.ToUriComponent();
+		return $"{request?.Scheme}://{host}";
+	}
+	
+	private ResponseBody GetResponseBody(string message, string? data)
+	{
+		return new ResponseBody()
+		{
+			Message = message,
+			Data = data,
+		};
+	}
+	
+	private JsonResult GetJsonResult(ResponseBody body, int statusCode)
+	{
+		return new JsonResult(body)
+		{
+			StatusCode = statusCode
+		};
 	}
 	
 }
