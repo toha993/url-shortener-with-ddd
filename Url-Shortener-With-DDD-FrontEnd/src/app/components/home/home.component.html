@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="card">
+    <div class="card-content">
+      <h2>Input</h2>
+      <input
+        type="text"
+        [(ngModel)]="inputValue"
+        (ngModelChange)="textInput()"
+        placeholder="Enter a URL..."
+        name="urlInput"
+        #urlInput="ngModel"
+        required
+        appUrlValidator
+      >
+      <div *ngIf="urlInput.invalid && (urlInput.dirty || urlInput.touched)">
+        <div class="required-message" *ngIf="urlInput.errors && urlInput.errors['required']">URL is required.</div>
+        <div class="error-message-url" *ngIf="urlInput.errors && urlInput.errors['invalidUrl']">Invalid URL format.</div>
+      </div>
+      <button  [disabled]="urlInput.invalid" (click)="showResponse()"   class="custom-button"
+      >Show Response</button>
+    </div>
+    <div class="error-container" *ngIf="errorMessage">
+      <p class="error-message">{{ errorMessage }}</p>
+    </div>
+    <div *ngIf="responseText" class="card-response">
+      <h2>Response</h2>
+      <a href="#" (click)="handleClick()" class="link-style beautified-text">{{ responseText }}</a>
+    </div>
+  </div>
+</div>

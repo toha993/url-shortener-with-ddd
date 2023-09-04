@@ -1,0 +1,130 @@
+// Container styles
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+// Card styles
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  &-response {
+    margin-top: 20px;
+  }
+
+  .error-container {
+    background-color: #ffdddd;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
+    .error-message {
+      color: #ff0000;
+      font-weight: bold;
+      text-align: center; /* Center text horizontally within the message */
+    }
+  }
+
+  // Link styles
+  .link-style {
+    margin-top: 10px;
+    padding: 10px;
+    color: #007bff; /* Link color, usually blue */
+    text-decoration: underline; /* Underline the link text */
+    cursor: pointer; /* Show a pointer cursor when hovering over the link */
+  }
+
+  // Beautified text styles
+  .beautified-text {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color, usually blue */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    background-color: #f0f0f0; /* Background color */
+    padding: 8px 12px; /* Padding around the link */
+    border-radius: 4px; /* Rounded corners */
+    border: 2px solid #007bff; /* Border */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+
+    // Hover styles
+    &:hover {
+      background-color: #007bff; /* Change background color on hover */
+      color: #ffffff; /* Change text color on hover */
+    }
+  }
+
+  /* Style for required message */
+  .required-message {
+    color: #ff0000; // Red text color
+    font-weight: bold; // Bold text
+    margin-bottom: 10px;
+  }
+
+  /* Style for error message */
+  .error-message-url {
+    color: #ff0000; // Red text color
+    font-weight: bold; // Bold text
+    border: 1px solid #ff0000; // Red border
+    padding: 5px; // Padding around the message
+    background-color: #ffe0e0; // Light red background color
+    margin-top: 5px; // Spacing from the input field
+    margin-bottom: 5px;
+  }
+
+
+  .custom-button {
+    background-color: #007bff; /* Default button color */
+    color: #fff; /* Default text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Styles for the button when it's disabled */
+  .custom-button:disabled {
+    background-color: #ccc0ff; /* Disabled button color */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+
+  /* Styles for the button on hover */
+
+  /* Styles for the button when clicked */
+  .custom-button:active {
+    background-color: #003f80; /* Clicked button color */
+    color: #fff; /* Clicked text color */
+  }
+}
+
+// Error container styles
+
+
