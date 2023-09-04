@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { HomeComponent } from \"./Components/home/home.component\";\nexport const AppRoutes = [{\n  path: '',\n  component: HomeComponent\n} // Default route\n];","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
